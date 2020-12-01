@@ -10,7 +10,7 @@ spec:
     tag: stage
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/stealthybox/flux-app-demo
+  url: ssh://git@github.com/cdenneen/flux-app-demo
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
